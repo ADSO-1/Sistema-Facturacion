@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cliente.css">
+    <title>Sistema de Facturación</title>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Facturación</h1>
+    </header>
+
+    <main class="flex">
+        <div class="container-formulario flex">
+            <form id="cliente">
+                <div id="form-group flex">
+                    <select name="Genero" id="genero">
+                        <option>-Seleccione su genero</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                    </select>
+                </div>
+
+                <div id="form-group flex">
+                    <select name="TipoDocumento" id="tipoDocumento">
+                        <option>-Seleccione su tipo de documento</option>
+                        <option value="Tarjeta de Identidad">Tarjeta de Identidad</option>
+                        <option value="Cedula">Cedula</option>
+                    </select>
+    
+                    <input id="doc" type="text" placeholder="Ingrese su Numero de Identificacion" required>
+                </div>
+                <div id="form-group">
+                    <input id="nombre" type="text" placeholder="Ingrese su Nombre" required>
+                </div>
+                <div id="form-group">
+                    <input id="apellido" type="text" placeholder="Ingrese su Apellido" required>
+                </div>
+                <div id="form-group">
+                    <input id="fecha_nac" type="date" required>
+                </div>
+                <div id="form-group">
+                    <input id="nac" type="text" placeholder="Ingrese su Nacionalidad" required>
+                </div>
+                
+                <div class="form-group submit flex">
+                    <input type="submit" value="GUARDAR">
+                </div>
+            
+            </form></div>
+        </div>
+        <div class="container-registro flex">
+            <h2 class="tituloLista"></h2>
+            <div class="info-lista">
+                
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h3>&copy; ADSO 1</h3>
+    </footer>
+
+    <script src="./js/index.js" type="module"></script>
+
+</body>
+</html> 
