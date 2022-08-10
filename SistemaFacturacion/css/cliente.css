@@ -19,7 +19,6 @@
 }
 
 h3{text-align: center;}
-
 h1{text-align: center;}
 
 form{width: 100%;}
@@ -48,7 +47,7 @@ main{
     background-color: white;
     box-shadow: 0 0 25px -9px var(--azulRey); 
 }
-
+.tituloForm{color: var(--azulOpaco);}
 select, input{
     border-bottom: 1px solid var(--blanco);
     border: none;
@@ -56,7 +55,6 @@ select, input{
     padding: 10px;
 }
 select{width: 100%;}
-
 input{
     background-color: transparent;
     border: none;
@@ -71,7 +69,6 @@ input:focus{
     border: 1px solid var(--rojo);
     border-radius: 7px;
 }
-
 input[type="submit"]{
     background-color: var(--azulRey);
     border: none;
@@ -85,7 +82,6 @@ input[type="submit"]:hover{
     background-color: var(--azulOpaco);
 }
 .submit{align-items: center;}
-
 ::placeholder{
     text-align: center;
     color: gray;
@@ -103,7 +99,7 @@ input[type="submit"]:hover{
     background-color: white;
     border-radius: 15px;
     flex-direction: column;
-    overflow: scroll;
+    overflow: hidden scroll;
 }
 .empty{color: var(--rojo);}
 .full{color: var(--azulOpaco);}
