@@ -8,6 +8,6 @@ export const guardarCliente = (tipoDoc, nidentificacion, genero, nombre, apellid
     sincronizarStorage(cliente) //Funcion para sincronizarStorage el localStorage
 }
 
-export const eliminarCliente = () => { //Prueba para le Grupo xddxxdxd
+export const eliminarCliente = () => {
 
 }
