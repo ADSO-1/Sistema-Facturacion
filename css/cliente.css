@@ -147,6 +147,21 @@ input[type="submit"]:hover, .botonEditar:hover{
     cursor: pointer;
     background-color: var(--rojo);
 }
+/*----- BARRA SCROLL -----*/
+.container-registro::-webkit-scrollbar,
+body::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.container-registro::-webkit-scrollbar:vertical,            
+body::-webkit-scrollbar:vertical{
+    width: 5px;
+}
+.container-registro::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb{
+    background-color: #797979;
+    border-radius: 20px;
+}
+
 /*----- FINAL PARA REGISTRO DE LAS PERSONAS -----*/
 
 @media (max-width: 800px){
